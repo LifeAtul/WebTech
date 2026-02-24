@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Simple Calculator</h1>
+    <div class="sum">
+        <input type="text" id="input_range" placeholder="0">
+        <p id="result" class="result">Output</p>
+        <div class="Numbers">
+
+            <button id="clear" style="background-color: rgb(255, 182, 193); color: crimson;"
+                onclick="clearAll()">AC</button>
+            <button id="(" onclick="press('(')"> ( </button>
+            <button id=")" onclick="press(')')"> ) </button>
+            <button id="Divide" style="background-color: rgb(253, 227, 77); color: crimson;"
+                onclick="press('/')">&divide;</button>
+            <br>
+            <button id="7" onclick="press('7')">7</button>
+            <button id="8" onclick="press('8')">8</button>
+            <button id="9" onclick="press('9')">9</button>
+            <button id="Multiply" style="background-color: rgb(253, 227, 77); color: crimson;"
+                onclick="press('*')">&times;</button>
+            <br>
+            <button id="4" onclick="press('4')">4</button>
+            <button id="5" onclick="press('5')">5</button>
+            <button id="6" onclick="press('6')">6</button>
+            <button id="Subtract" style="background-color: rgb(253, 227, 77); color: crimson;"
+                onclick="press('-')">-</button>
+            <br>
+            <button id="1" onclick="press('1')">1</button>
+            <button id="2" onclick="press('2')">2</button>
+            <button id="3" onclick="press('3')">3</button>
+            <button id="Add" style="background-color: rgb(253, 227, 77); color: crimson;"
+                onclick="press('+')">+</button>
+            <br>
+            <button id="0" onclick="press('0')">0</button>
+            <button id="." onclick="press('.')">.</button>
+            <button id="%" onclick="press('%')">%</button>
+            <button id="Equal" onclick="calculate()" style="background-color: rgb(92, 92, 194);">=</button>
+            <br>
+
+        </div>
+        <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -120,6 +120,11 @@ header p {
     color: #0c5460;
 }
 
+.experiment-type.javascript {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
 footer {
     background-image: linear-gradient();
     text-align: center;
