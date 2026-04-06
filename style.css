@@ -125,6 +125,11 @@ header p {
     color: #721c24;
 }
 
+.experiment-type.php {
+    background-color: #e9d8fd;
+    color: #5b2b91;
+}
+
 footer {
     background-image: linear-gradient();
     text-align: center;
